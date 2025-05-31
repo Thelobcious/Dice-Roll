@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+#mergedContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  gap: 10px;
+  justify-content: center;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid #ccc;
+}
